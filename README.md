@@ -9,6 +9,9 @@ This repository is **comprehensive learning roadmap for aspiring AI Engineers**.
    * Variables, datatypes, operators
    * Functions, classes, input/output
    * Simple Projects (Calculator, mini-games)
+2. Deployment & Tools
+   * Git & Github workflow
+   * Docker & Cloud Integeration
 
 ### Python Coding Problems: Zero to Hero for AI Journey
 
@@ -42,9 +45,7 @@ A comprehensive progression of coding challenges to master Python for artificial
 19. **Nested Data Extractor** - Extract values from nested dictionaries
 20. **Shopping Cart** - Build a cart system with items and prices
 
-2. Deployment & Tools
-   * Git & Github workflow
-   * Docker & Cloud Integeration
+
 ## How to Use this Repo
 * Clone the repo:
   'git clone https://github.com/poonamgargagarwal/ai-engineer-zero-to-hero.git'
