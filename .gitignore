@@ -1,0 +1,21 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+venv/
+env/
+# other common virtual env names
+
+# IDE-specific files
+.idea/  # For PyCharm and other JetBrains IDEs
+.vscode/ # For VS Code
+
+# Operating system files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Temporary files and logs
+*.log
+logs/

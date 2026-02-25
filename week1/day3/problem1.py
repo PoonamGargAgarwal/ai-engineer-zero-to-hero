@@ -15,7 +15,7 @@ class NaturalNumbers:
     #create a list of natural numbers up to n
     def create_list(self):
         if(self.n < 0):
-            print("There is no list of natural numbers)")
+            print("There is no list of natural numbers")
         elif (self.n >= 0):
             i = 0
             self.natural_numbers = [0] * self.n
@@ -63,6 +63,17 @@ class NaturalNumbers:
             max_freq = max(frequency.values())
             modes = [num for num, freq in frequency.items() if freq == max_freq]
             print(f"The mode(s) of the list of natural numbers is/are: {modes}")
+        
+        #Remove duplicates from the list of natural numbers
+        def remove_duplicates(self):
+            if self.n == 0:
+                print("The list of natural numbers is empty. Cannot remove duplicates.")
+            else:
+                unique_numbers = list(set(self.natural_numbers))
+                print(f"The list of natural numbers after removing duplicates is: {unique_numbers}")
+
+
+
 
 # main function to create and print the list of natural numbers and calculate the mean
 print("Welcome to the List of Natural Numbers Generator!")
