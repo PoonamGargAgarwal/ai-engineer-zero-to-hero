@@ -49,6 +49,31 @@ A comprehensive progression of coding challenges to master Python for artificial
 ## How to Use this Repo
 * Clone the repo:
   'git clone https://github.com/poonamgargagarwal/ai-engineer-zero-to-hero.git'
+## How to execute python 
+* Activate venv:
+
+      ` source env/bin/activate ` or ` source .venv/bin/activate`
+
+* Install deps(if needed)
+
+      ` pip install -r requirements.txt` 
+  OR just pip install pytest
+
+* Run full test suite(works for this repo):
+
+      ` PYTHONPATH=week1/day3:week1/day4:. ./env/bin/pytest -q `
+   (if your venv's python/pytest are on PATH you can omit bin)
+* Run a single test file:
+
+      `PYTHONPATH=week1/day3:week1/day4:. pytest [test_problem1.py] -q`
+* Run one test by substring:
+`PYTHONPATH=week1/day3:week1/day4:. pytest -k test_mean_calculation -q`
+
+* Make PYTHONPATH permanent for the session:
+` export PYTHONPATH=week1/day3:week1/day4:.` then run pytest -q normally
+
+
+
 ## Goals
 * Learn AI engineers from scratch
 * Build Real-World projects to showcase skills.

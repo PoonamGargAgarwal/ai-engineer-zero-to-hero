@@ -45,11 +45,11 @@ def even_length_list():
 class TestInit:
     def test_n_is_set(self):
         nn = NaturalNumbers(10)
-        return nn.n == 10
+        assert nn.n == 10
     
     def test_natural_numbers_is_empty_list(self):
         nn = NaturalNumbers(10)
-        return nn.natural_numbers == []
+        assert nn.natural_numbers == []
 #--------------------------------
 # create_list tests
 # --------------------------------

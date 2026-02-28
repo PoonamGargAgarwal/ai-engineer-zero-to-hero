@@ -73,18 +73,17 @@ class NaturalNumbers:
                 print(f"The list of natural numbers after removing duplicates is: {unique_numbers}")
 
 
-
-
-# main function to create and print the list of natural numbers and calculate the mean
-print("Welcome to the List of Natural Numbers Generator!")
-print("Please enter how many items you want in the list of natural numbers")
-n = int(input())
-if(n < 0):
-    print("There is no list of natural numbers")
-else:   
-    shopping_item_list = NaturalNumbers(n)
-    shopping_item_list.create_list()
-    shopping_item_list.print_list()
-    shopping_item_list.mean() 
-    shopping_item_list.median()
-    shopping_item_list.mode()
+if __name__ == "__main__":
+    # main function to create and print the list of natural numbers and calculate the mean
+    print("Welcome to the List of Natural Numbers Generator!")
+    print("Please enter how many items you want in the list of natural numbers")
+    n = int(input())
+    if(n < 0):
+        print("There is no list of natural numbers")
+    else:   
+        shopping_item_list = NaturalNumbers(n)
+        shopping_item_list.create_list()
+        shopping_item_list.print_list()
+        shopping_item_list.mean() 
+        shopping_item_list.median()
+        shopping_item_list.mode()
