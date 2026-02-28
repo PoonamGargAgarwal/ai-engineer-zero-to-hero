@@ -11,6 +11,8 @@ env/
 # IDE-specific files
 .idea/  # For PyCharm and other JetBrains IDEs
 .vscode/ # For VS Code
+.vscode
+
 
 # Operating system files
 .DS_Store # macOS
